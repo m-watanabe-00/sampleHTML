@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta charset="viewport" content="width=device-width,initial-scale=1">
+<title>cart</title>
+  <link rel="stylesheet" type="text/css" href="../css/cart.css">
+  <link rel="stylesheet" type="text/css" href="../css/slick.css">
+  <link rel="stylesheet" type="text/css" href="../css/slick-theme.css"/>
+  <script type="text/javascript" src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+  <script type="text/javascript" src="../js/slick.min.js"></script>
+  <script type="text/javascript" src="../js/cart.js"></script>
+</head>
+
+<body>
+
+<header>
+</header>
+
+<main>
+    <div class="slider">
+		<div><img src="../img/rain1.jpg"></div>
+		<div><img src="../img/rain2.jpg"></div>
+    </div>
+	<h1>商品</h1>
+	<form action="#" id="form">
+		<table border="1">
+    		<tr>
+      			<th>商品名</th>
+      			<th>商品画像</th>
+      			<th>説明</th>
+      			<th>値段</th>
+      			<th>個数</th>
+    		</tr>
+    		<tr>
+			     <td>ダージリン</td>
+                 <td><img src = "../img/tea1.jpg" width="300"></td>
+			     <td>美味しいです</td>
+			     <td>500円</td>
+			     <td>
+			     	<select id="item1">
+			     	    <option value='0'>0</option>
+			     		<option value='1'>1</option>
+						<option value='2'>2</option>
+						<option value='3'>3</option>
+			     	</select>
+			     </td>
+    		</tr>
+    		<tr>
+			     <td>アッサム</td>
+			     <td><img src = "../img/tea2.jpg" width="300">
+			     </td>
+			     <td>多分美味しいです</td>
+			     <td>1000円</td>
+			     <td>
+			     	<select id="item2">
+			     	    <option value='0'>0</option>
+			     		<option value='1'>1</option>
+						<option value='2'>2</option>
+						<option value='3'>3</option>
+			     	</select>
+			     </td>
+    		</tr>
+    		<tr>
+			     <td>オレンジペコ</td>
+			     <td><img src = "../img/tea3.jpg" width="300"></td>
+			     <td>きっと美味しいです</td>
+			     <td>380円</td>
+			     <td>
+			     	<select id="item3">
+			     	    <option value='0'>0</option>
+			     		<option value='1'>1</option>
+						<option value='2'>2</option>
+						<option value='3'>3</option>
+			     	</select>
+			     </td>
+    		</tr>
+  		</table>
+  		<input type="submit" value="合計">
+	</form>
+  	<p id="total">合計金額は:</p>
+</main>
+
+<footer>
+</footer>
+</body>
+</html>
